@@ -33,6 +33,13 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
 
+# Charger mode images
+ifeq ($(TARGET_INCLUDE_PIXEL_CHARGER),true)
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+endif
+
 # curl
 PRODUCT_PACKAGES += \
     curl
