@@ -57,6 +57,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AospaImmersiveNavigationOverlay \
     FilesOverlay \
     PixelLauncherCustomOverlay \
     PixelDocumentsUIGoogleOverlay \
