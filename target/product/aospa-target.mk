@@ -32,6 +32,9 @@ $(call inherit-product, external/google-fonts/lato/fonts.mk)
 # Bootanimation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
+# Optimize everything for preopt
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
 
