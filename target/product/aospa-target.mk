@@ -123,6 +123,18 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
 
+# Optimise package manager dex flags
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    pm.dexopt.boot=verify \
+    pm.dexopt.first-boot=quicken \
+    pm.dexopt.install=speed-profile \
+    pm.dexopt.bg-dexopt=everything
+
+ifneq ($(AB_OTA_PARTITIONS),)
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    pm.dexopt.ab-ota=quicken
+endif
+
 # One Handed Mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
