@@ -19,6 +19,9 @@ PRODUCT_PACKAGES += \
 # Set compiler filter "verify" and disable AOT-compilation in dexpreopt
 RELAX_USES_LIBRARY_CHECK := true
 
+# Inherit Gcam BSG
+$(call inherit-product, vendor/GcamBSG/GcamBSG-vendor.mk)
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
