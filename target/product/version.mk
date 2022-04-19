@@ -53,7 +53,7 @@ else
 endif
 
 # Build Date
-BUILD_DATE := $(shell date -u +%Y%m%d)
+BUILD_DATE := $(shell date -u '+%Y%m%d-%H%M')
 
 # AOSPA Version
 TMP_AOSPA_VERSION := $(AOSPA_MAJOR_VERSION)-
