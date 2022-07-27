@@ -22,5 +22,6 @@ PRODUCT_PACKAGES += \
     FontGoogleSansOverlay \
     FontInterOverlay \
     FontManropeOverlay \
+    FontMiSansOverlay \
     FontUrbanistOverlay \
     ParanoidLauncherOverlay
