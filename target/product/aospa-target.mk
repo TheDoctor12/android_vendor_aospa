@@ -22,6 +22,9 @@ endif
 # AOSPA Versioning.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
+# Sounds
+include vendor/aospa/target/product/sounds.mk
+
 # Bootanimation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
@@ -58,8 +61,9 @@ $(call inherit-product, vendor/aospa/target/product/properties.mk)
 $(call inherit-product, vendor/aospa/sepolicy/sepolicy.mk)
 
 # Include GMS, Modules, and Pixel features.
-$(call inherit-product, vendor/google/gms/config.mk)
-$(call inherit-product, vendor/google/pixel/config.mk)
+#$(call inherit-product, vendor/google/gms/config.mk)
+#$(call inherit-product, vendor/google/pixel/config.mk)
+$(call inherit-product, vendor/gms/gms_mini.mk)
 
 ifneq ($(TARGET_FLATTEN_APEX), true)
 $(call inherit-product-if-exists, vendor/google/modules/build/mainline_modules_s.mk)
