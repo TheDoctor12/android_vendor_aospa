@@ -34,4 +34,16 @@
     <string name="harmful_app_warning_title">Play Protect warning</string>
     <string name="widget_default_class_name">com.android.alarmclock.DigitalAppWidgetProvider</string>
     <string name="widget_default_package_name">com.google.android.deskclock</string>
+    <string name="config_defaultCaptivePortalLoginPackageName" translatable="false">com.google.android.captiveportallogin</string>
+    <string name="config_defaultNearbyFastPairSettingsDevicesComponent" translatable="false">com.google.android.gms/com.google.android.gms.nearby.discovery.devices.SavedDevicesSettingsActivity</string>
+    <string name="config_defaultQrCodeComponent" translatable="false">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
+    <string name="config_defaultSearchSelectorPackageName" translatable="false">com.google.android.apps.setupwizard.searchselector</string>
+    <string name="config_devicePolicyManagement" translatable="false">com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58</string>
+    <string name="config_devicePolicyManagementUpdater" translatable="false">com.google.android.gms</string>
+    <string name="config_loggable_dream_prefix" translatable="false">com.google.</string>
+    <string name="config_systemBluetoothStack" translatable="false">
+        com.android.bluetooth
+    </string>
+    <!-- System settings intelligence package name -->
+    <string name="config_systemSettingsIntelligence" translatable="false">com.google.android.settings.intelligence</string>
 </resources>

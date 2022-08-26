@@ -81,6 +81,7 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlay2019Midyear \
     PixelConfigOverlay2021 \
     PixelSetupWizardOverlay \
+    MediaProviderOverlay \
     PixelSetupWizardOverlay2019 \
     PixelSetupWizardOverlayActiveEdge \
     PixelFwResOverlay \
