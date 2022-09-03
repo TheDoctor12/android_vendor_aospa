@@ -48,6 +48,9 @@ $(call inherit-product, vendor/qcom/sdclang/config/SnapdragonClang.mk)
 # Include Overlay makefile.
 $(call inherit-product, vendor/aospa/overlay/overlays.mk)
 
+# Include RRO-Overlays makefile.
+$(call inherit-product, vendor/aospa/rro_overlays/rro_overlays.mk)
+
 # Include Packages makefile.
 $(call inherit-product, vendor/aospa/target/product/packages.mk)
 
