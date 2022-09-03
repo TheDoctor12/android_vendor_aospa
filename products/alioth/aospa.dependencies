@@ -1,25 +1,6 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_alioth",
-        "target_path":  "device/xiaomi/alioth",
-        "revision":     "topaz"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_sm8250",
-        "target_path":  "kernel/msm-4.19",
-        "revision":     "topaz"
-    },
-    {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
-        "revision":     "topaz",
-        "clone-depth":  "1"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
         "revision":     "topaz-865"
