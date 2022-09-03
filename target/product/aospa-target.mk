@@ -25,18 +25,15 @@ $(call inherit-product, vendor/aospa/target/product/version.mk)
 # Sounds
 include vendor/aospa/target/product/sounds.mk
 
+# Fonts
+include vendor/aospa/target/product/fonts.mk
+$(call inherit-product, external/google-fonts/lato/fonts.mk)
+
 # Bootanimation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
-
-# Fonts
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
-    vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
-$(call inherit-product, external/google-fonts/lato/fonts.mk)
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
