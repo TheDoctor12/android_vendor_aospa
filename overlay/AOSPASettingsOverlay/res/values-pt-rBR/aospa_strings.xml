@@ -15,6 +15,10 @@
     <!-- Paranoid Android version -->
     <string name="aospa_version">Versão da Paranoid Android</string>
 
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de mídia</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
+
     <!-- Gestures Settings -->
     <string name="offscreen_gesture_title">Gestos de tela desligada</string>
     <string name="gestures_master">Usar gestos de tela desligada</string>
@@ -33,8 +37,8 @@
     <string name="gestures_open_dialer">Abrir discador</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Capturar ao deslizar</string>
-    <string name="swipe_to_screenshot_gesture_summary">Deslize na tela com três dedos para realizar uma captura de tela</string>
+    <string name="three_finger_gesture">Capturar ao deslizar</string>
+    <string name="three_finger_gesture_summary">Deslize na tela usando três dedos para realizar uma captura de tela</string>
 
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Toque para desligar a tela</string>
