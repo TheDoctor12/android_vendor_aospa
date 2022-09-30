@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     curl \
     vim
 
+# Debloater
+PRODUCT_PACKAGES += \
+    Debloater
+
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
 
