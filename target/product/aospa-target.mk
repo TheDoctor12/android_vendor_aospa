@@ -47,9 +47,10 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# curl
+# Extra tools
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    vim
 
 # Dex2oat
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
