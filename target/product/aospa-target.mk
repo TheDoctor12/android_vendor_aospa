@@ -42,9 +42,10 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-# curl
+# Extra tools
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    vim
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
