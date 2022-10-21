@@ -41,9 +41,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
 
-# curl
+# Extra tools
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    vim
 
 # Dex2oat
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
