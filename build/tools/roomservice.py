@@ -23,6 +23,8 @@ import os
 import sys
 from xml.etree import ElementTree as ET
 
+exit()
+
 extra_manifests_dir = '.repo/manifests/'
 upstream_manifest_path = '.repo/manifest.xml'
 local_manifests_dir = '.repo/local_manifests'
