@@ -2,5 +2,8 @@
 system_public_prop(pih_build_prop)
 system_public_prop(pih_features_prop)
 
+# Reset Signatures
+system_restricted_prop(reset_signatures_prop);
+
 # Tethering
 system_internal_prop(device_config_tethering_prop)
