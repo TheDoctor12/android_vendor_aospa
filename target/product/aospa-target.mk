@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
@@ -33,18 +29,13 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
 # Charger
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
 
-# Extra tools
+# curl
 PRODUCT_PACKAGES += \
-    curl \
-    vim
+    curl
 
 # Dex2oat
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
