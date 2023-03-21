@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="default_color_name">Classic</string>
+    <string name="bundle1_color_name">Carbon</string>
+    <string name="bundle2_color_name">Paper</string>
+    <string name="bundle3_color_name">Sun</string>
+    <string name="bundle_name_default" translatable="false">@string/default_color_name</string>
+    <string name="bundle_name_bundle1" translatable="false">@string/bundle1_color_name</string>
+    <string name="bundle_name_bundle2" translatable="false">@string/bundle2_color_name</string>
+    <string name="bundle_name_bundle3" translatable="false">@string/bundle3_color_name</string>
+    <string name="bundle_name_fruits1" translatable="false">@string/default_color_name</string>
+    <string name="bundle_name_fruits2" translatable="false">@string/default_color_name</string>
+    <string name="bundle_name_fruits3" translatable="false">@string/default_color_name</string>
+    <string name="bundle_name_fruits4" translatable="false">@string/default_color_name</string>
+    <string name="bundle_name_fruits5" translatable="false">@string/default_color_name</string>
+    <string name="color_style_fruits1" translatable="false">FRUIT_SALAD</string>
+    <string name="color_style_fruits2" translatable="false">FRUIT_SALAD</string>
+    <string name="color_style_fruits3" translatable="false">FRUIT_SALAD</string>
+    <string name="color_style_fruits4" translatable="false">FRUIT_SALAD</string>
+    <string name="color_style_fruits5" translatable="false">FRUIT_SALAD</string>
+</resources>
