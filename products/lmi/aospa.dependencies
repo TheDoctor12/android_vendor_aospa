@@ -12,8 +12,8 @@
         "revision":     "topaz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
+        "remote":       "github",
+        "repository":   "TheDoctor12/proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
         "revision":     "topaz",
         "clone-depth":  "1"
