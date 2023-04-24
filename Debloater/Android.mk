@@ -5,6 +5,7 @@ LOCAL_MODULE := Debloater
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES += \
+Chrome64 \
 Drive \
 Gmail2 \
 Maps \

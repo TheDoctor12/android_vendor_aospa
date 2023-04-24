@@ -39,6 +39,12 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Boot Animation
 $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
+# Chromium
+PRODUCT_PACKAGES += \
+    TrichromeLibrary \
+    TrichromeWebView \
+    TrichromeChrome
+
 # curl
 PRODUCT_PACKAGES += \
     curl
