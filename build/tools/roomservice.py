@@ -241,11 +241,6 @@ if __name__ == '__main__':
 
     # Sync the project that have changed and should be synced.
     if len(syncable_projects) > 0:
-        threads = os.cpu_count()
-        if (threads != None) and (threads > 4):
-            threads = threads - 2
-        else:
-            threads = 4
-        print('Syncing the dependencies with %s threads' % threads)
-        if os.system('repo sync --force-sync --no-clone-bundle --no-tags -j%s %s' % (threads, ' '.join(syncable_projects))) != 0:
+        print('Syncing the dependencies.')
+        if os.system('repo sync --force-sync --quiet --no-clone-bundle --no-tags %s' % ' '.join(syncable_projects)) != 0:
             raise ValueError('Got an unexpected exit status from the sync process.')
