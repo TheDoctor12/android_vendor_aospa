@@ -25,8 +25,8 @@
         "revision":     "topaz-865"
     },
     {
-        "remote":       "github",
-        "repository":   "TheDoctor12/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "topaz-865"
     },
