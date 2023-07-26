@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from the custom device configuration
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
+# AOSPA Flags
+KERNEL_CUSTOM_LLVM := true
+
 # Inherit common AOSPA configuration
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
