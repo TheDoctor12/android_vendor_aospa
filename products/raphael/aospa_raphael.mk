@@ -28,7 +28,7 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 PRODUCT_NAME := aospa_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi K20 Pro
+PRODUCT_MODEL := MI 9T Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -36,6 +36,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Live Wallpaper
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 endif

@@ -87,7 +87,7 @@ COMMON_LUNCH_CHOICES += \
     aospa_phoenix-userdebug \
     aospa_phone1-userdebug \
     aospa_porsche-userdebug \
-    aospa_raphael-user \
+    aospa_raphael-userdebug \
     aospa_raven-userdebug \
     aospa_spes-userdebug \
     aospa_sunny-userdebug \

@@ -1,5 +1,24 @@
 [
     {
+        "remote":       "github",
+        "repository":   "TheDoctor12/android_device_xiaomi_raphael",
+        "target_path":  "device/xiaomi/raphael",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TheDoctor12/kernel_xiaomi_raphael",
+        "target_path":  "kernel/msm-4.14",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TheDoctor12/vendor_xiaomi_raphael",
+        "target_path":  "vendor/xiaomi/raphael",
+        "revision":     "topaz",
+        "clone-depth":  "1"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
