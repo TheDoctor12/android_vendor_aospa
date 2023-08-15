@@ -58,6 +58,3 @@ PRODUCT_PACKAGES += \
     IconPackRoundedSystemUIOverlay \
     IconPackRoundedThemePickerOverlay \
     ParanoidLauncherOverlay
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/aospa/overlay/static
-PRODUCT_PACKAGE_OVERLAYS += vendor/aospa/overlay/static
