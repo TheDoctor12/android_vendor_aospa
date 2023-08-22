@@ -135,8 +135,17 @@ PRODUCT_SYSTEM_PROPERTIES += \
     dalvik.vm.usap_pool_size_min=1 \
     dalvik.vm.usap_pool_refill_delay_ms=3000
 
-# Java Optimizations
+# ART/Dex Debug
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+WITH_DEXPREOPT_DEBUG_INFO := false
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+USE_DEX2OAT_DEBUG := false
+
+# Java Optimizations
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 
