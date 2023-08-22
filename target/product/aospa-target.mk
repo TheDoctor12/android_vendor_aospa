@@ -135,6 +135,14 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 USE_DEX2OAT_DEBUG := false
 
+# Properties for the Unspecialized App Process Pool
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.usap_pool_enabled=true \
+    dalvik.vm.usap_refill_threshold=5 \
+    dalvik.vm.usap_pool_size_max=10 \
+    dalvik.vm.usap_pool_size_min=1 \
+    dalvik.vm.usap_pool_refill_delay_ms=3000
+
 # Java Optimizations
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
