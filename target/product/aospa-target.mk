@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     TrichromeWebView \
     TrichromeChrome
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images_vendor_pixel
+
 # curl
 PRODUCT_PACKAGES += \
     curl
