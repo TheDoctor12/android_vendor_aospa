@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
 
 # Charger
 PRODUCT_PACKAGES += \
-    charger_res_images_vendor_pixel
+    charger_res_images_product_pixel
 
 # Extra tools
 PRODUCT_PACKAGES += \
