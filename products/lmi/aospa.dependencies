@@ -49,8 +49,8 @@
         "revision":     "uvite-legacy-component"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_xiaomi",
+        "remote":       "github",
+        "repository":   "TheDoctor12/android_hardware_xiaomi",
         "target_path":  "hardware/xiaomi",
         "revision":     "uvite"
     },
