@@ -1,19 +1,19 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_raphael",
+        "remote":       "github",
+        "repository":   "TheDoctor12/android_device_xiaomi_raphael",
         "target_path":  "device/xiaomi/raphael",
         "revision":     "uvite"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_raphael",
+        "remote":       "github",
+        "repository":   "TheDoctor12/android_kernel_xiaomi_raphael",
         "target_path":  "kernel/msm-4.14",
         "revision":     "uvite"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
+        "remote":       "github",
+        "repository":   "TheDoctor12/proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
         "revision":     "uvite",
         "clone-depth":  "1"
