@@ -5,3 +5,7 @@ hal_client_domain(platform_app, hal_aospa_powershare)
 
 # Allow LineageHealth HAL service to be found
 hal_client_domain(platform_app, hal_lineage_health)
+
+# Allow Launcher3 to access zram
+allow platform_app sysfs_zram:dir search;
+allow platform_app sysfs_zram:file r_file_perms;
