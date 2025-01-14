@@ -17,7 +17,11 @@ hal_client_domain(system_server, hal_aospa_powershare)
 hal_client_domain(system_server, hal_lineage_health)
 
 # CachedAppOptimizer
+allow system_server tmpfs:file rw_file_perms;
+allow system_server app_zygote_tmpfs:file rw_file_perms;
+allow system_server audioserver_tmpfs:file rw_file_perms;
 allow system_server zygote_tmpfs:file rw_file_perms;
+allow system_server vndbinder_device:chr_file rw_file_perms;
 
 # PIH
 add_service(system_server, pih_manager_service);
