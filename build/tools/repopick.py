@@ -435,7 +435,7 @@ if __name__ == '__main__':
             if args.pull:
                 cmd = ['git pull --no-edit aospa', item['fetch'][method]['ref']]
             else:
-                cmd = ['git fetch aospa', item['fetch'][method]['ref']]
+                cmd = ['git fetch aospa --depth=2', item['fetch'][method]['ref']]
             if args.quiet:
                 cmd.append('--quiet')
             else:
@@ -457,7 +457,7 @@ if __name__ == '__main__':
             if args.pull:
                 cmd = ['git pull --no-edit', item['fetch'][method]['url'], item['fetch'][method]['ref']]
             else:
-                cmd = ['git fetch', item['fetch'][method]['url'], item['fetch'][method]['ref']]
+                cmd = ['git fetch --depth=2', item['fetch'][method]['url'], item['fetch'][method]['ref']]
             if args.quiet:
                 cmd.append('--quiet')
             else:
