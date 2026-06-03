@@ -6,11 +6,13 @@
 <manifest>
   <include name="../platforms/kona.xml" />
 
-  <project path="device/xiaomi/lmi" name="AOSPA/android_device_xiaomi_lmi" remote="aospa" revision="uvite" />
-  <project path="device/xiaomi/sepolicy" name="AOSPA/android_device_xiaomi_sepolicy" remote="aospa" revision="uvite" />
-  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="uvite" />
-  <project path="kernel/msm-4.19" name="AOSPA/android_kernel_xiaomi_sm8250" remote="aospa" revision="uvite" />
-  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-SN100X-legacy" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-SN100X-legacy" />
-  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="uvite" clone-depth="1" />
+  <project path="device/xiaomi/lmi" name="TheDoctor12/android_device_xiaomi_lmi" remote="github" revision="calcite" />
+  <project path="device/xiaomi/sepolicy" name="TheDoctor12/android_device_xiaomi_sepolicy" remote="github" revision="calcite" />
+  <project path="hardware/dolby" name="aospa-pipa/android_hardware_dolby" remote="aospa" revision="sony-A17"/>
+  <project path="hardware/xiaomi" name="aospa-pipa/android_hardware_xiaomi" remote="aospa" revision="calcite"/>
+  <project path="kernel/msm-4.19" name="TheDoctor12/android_kernel_xiaomi_sm8250" remote="github" revision="calcite" />
+  <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="vauxite-SN100X-legacy" />
+  <project path="vendor/xiaomi" name="TheDoctor12/proprietary_vendor_xiaomi" remote="github" revision="calcite" clone-depth="1" />
+  <project path="bootable/deprecated-ota" name="TheDoctor12/android_bootable_deprecated-ota" remote="github" revision="calcite" />
 </manifest>
