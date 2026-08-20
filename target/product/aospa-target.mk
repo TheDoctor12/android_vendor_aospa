@@ -102,7 +102,7 @@ endif
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     NexusLauncherRelease \
-    ParanoidSystemUI
+    SystemUI
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.systemuicompilerfilter=speed
